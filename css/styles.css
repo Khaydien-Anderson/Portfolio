@@ -1,15 +1,11 @@
-body {
-  height: 100%;
-}
-
 nav {
   background-color: black;
 }
 
 .intro {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), black), url("/img/laptop.png");
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/img/laptop.png");
   height: 100vh;
-  width: 100vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,7 +15,7 @@ main {
   background-color: black;
 }
 main .card {
-  background: transparent;
+  background-color: rgba(0, 0, 0, 0.7);
   border: solid 2px grey;
 }
 
@@ -36,9 +32,6 @@ main .card {
 
 .logos {
   justify-content: space-around;
-}
-.logos img {
-  width: 100px;
 }
 
 .contact {
