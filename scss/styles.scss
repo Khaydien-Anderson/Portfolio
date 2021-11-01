@@ -1,11 +1,74 @@
 
 body {
-  background-image: url(/img/cool-background-2.png);
+
+  height: 100%;
 }
 
-.navbar {
-border-bottom: solid .5px white;
-border-top: solid .5px white;
-
-
+nav {
+background-color: black;
 }
+
+.intro {
+  
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1) ), url('/img/laptop.png');
+  // background-color: black;
+height: 100vh;
+width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@media (min-width: 320px) {
+  .typing {
+    
+  }
+}
+
+
+main {
+  background-color: black;
+  .card {
+    background: transparent;
+    border: solid 2px grey;
+  }
+}
+
+.cv {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+.about {
+  padding-top: 20px;
+  height: 100vh;
+}
+.logos {
+  
+justify-content: space-around;
+  img {
+    width: 100px;
+  }
+}
+
+.contact {
+  height: 100vh;
+}
+
+// .typing {
+// animation: blink 2.5s infinite ease;
+
+// }
+
+// @keyframes blink {
+// 0%{
+// opacity: 0;
+
+// }
+
+// 100%{
+// opacity: 1;
+
+// }
+// }
