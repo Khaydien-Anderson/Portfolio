@@ -17,6 +17,7 @@ main {
 main .card {
   background-color: rgba(0, 0, 0, 0.7);
   border: solid 2px grey;
+  animation: fade 2s ease-in;
 }
 
 .cv {
@@ -25,17 +26,40 @@ main .card {
   right: 30px;
 }
 
-.about {
+.projects,
+.contact {
   padding-top: 20px;
-  height: 100vh;
 }
 
-.logos {
-  justify-content: space-around;
+.glide img {
+  width: 100%;
+  height: 300px;
+  border: solid 1px grey;
+}
+.glide img:hover {
+  opacity: 1;
 }
 
 .contact {
-  height: 100vh;
+  word-wrap: break-word;
+}
+
+@keyframes fade {
+  0% {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  25% {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  75% {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
