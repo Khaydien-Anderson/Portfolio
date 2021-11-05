@@ -27,7 +27,7 @@ main {
   background-color: black;
   .card {
     background-color: rgba(0, 0, 0, 0.7);
-    border: solid 2px grey;
+    // border: solid 2px grey;
     animation: fade 2s ease-in;
   }
 }
@@ -39,34 +39,38 @@ main {
 }
 
 
-.projects,
-.contact{
-  padding-top: 20px;
+
+.glide {
+display: flex;
+justify-content: center;
+img {
+ margin: auto;
+  width: 90%;
+  height: 100%;
+  border: solid 2px whitesmoke;
+}
+img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.glide__arrow {
+  color: black;
+  background-color: whitesmoke;
+}
+
+}
+
+.modal{
+
   
 }
 
-.glide {
-
-img {
-  width: 100%;
-  height: 300px;
-  border: solid 1px grey;
-}
-img:hover {
-  opacity: 1;
-}
-}
-
-
-.contact {
-
-word-wrap: break-word;
-}
 
 
 @keyframes fade {
 0%{
-background-color: rgba(0, 0, 0, 0.1);
+background-color: rgba(0, 0, 0, 0.0);
 
 }
 25% {
