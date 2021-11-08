@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
     <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Share:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
 
     <link rel="stylesheet" href="css/styles.css">
     
@@ -67,7 +70,7 @@
         </div>
       </div>
 
-</div>
+</div><hr >
 <!-- PROJECTS SECTION //////////////////// PROJECTS-->
 <h2 class="display-4 text-light" id="projects">Projects</h2>
 <p class="text-light text-center px-3">Below are a handful of projects I have been working on over the past year. These range from projects given to me for learning experience and first pieces of freelance work.<br><br> Click on a project to view more informaton on the creation of it.</p>
@@ -75,12 +78,12 @@
   <div class="glide">
     <div class="glide__track" data-glide-el="track">
       <ul class="glide__slides">
-        <li class="glide__slide d-flex flex-column text-center justify-content-center" ><img data-bs-toggle="modal" data-bs-target="#exampleModal" src="/img/gallery.png" ><p>Photo Gallery with search filter.</p></li>
-        <li class="glide__slide d-flex flex-column text-center justify-content-center"><img data-bs-toggle="modal" data-bs-target="#exampleModal" src="/img/dashboard.png"><p>Intranet Dashboard with Javascript interactivity.</p></li>
-        <li class="glide__slide d-flex flex-column text-center justify-content-center"><img data-bs-toggle="modal" data-bs-target="#exampleModal" src="/img/api.png"><p>API Employee directory.</p></li>
-        <li class="glide__slide d-flex flex-column text-center justify-content-center" ><img data-bs-toggle="modal" data-bs-target="#exampleModal" src="/img/Mobile First.png" ><p>Basic Mobile First Web design portfolio.</p></li>
-        <li class="glide__slide d-flex flex-column text-center justify-content-center"><img data-bs-toggle="modal" data-bs-target="#exampleModal" src="/img/Mike.png"><p>Video Producers portfolio.</p></li>
-        <li class="glide__slide d-flex flex-column text-center justify-content-center"><img data-bs-toggle="modal" data-bs-target="#exampleModal" src="/img/game.png"><p>Word Guessing Game.</p></li>
+        <li class="glide__slide info d-flex flex-column text-center justify-content-center" ><img data-bs-toggle="modal" data-bs-target="#exampleModal" src="/img/gallery.png"  ><p>Photo Gallery with search filter</p></li>
+        <li class="glide__slide info d-flex flex-column text-center justify-content-center" ><img data-bs-toggle="modal" data-bs-target="#exampleModal" src="/img/dashboard.png"><p>Intranet Dashboard with Javascript interactivity</p></li>
+        <li class="glide__slide info d-flex flex-column text-center justify-content-center"><img data-bs-toggle="modal" data-bs-target="#exampleModal" src="/img/api.png"><p>API Employee directory</p></li>
+        <li class="glide__slide info d-flex flex-column text-center justify-content-center" ><img data-bs-toggle="modal" data-bs-target="#exampleModal" src="/img/Mobile First.png" ><p>Basic Mobile First Web design portfolio</p></li>
+        <li class="glide__slide info d-flex flex-column text-center justify-content-center"><img data-bs-toggle="modal" data-bs-target="#exampleModal" src="/img/Mike.png"><p>Video Producers portfolio</p></li>
+        <li class="glide__slide info d-flex flex-column text-center justify-content-center"><img data-bs-toggle="modal" data-bs-target="#exampleModal" src="/img/game.png"><p>JS Word Guessing Game</p></li>
       </ul>
       
     </div>
@@ -88,13 +91,13 @@
       <button class="glide__arrow glide__arrow--left rounded-pill" data-glide-dir="<"><<</button>
       <button class="glide__arrow glide__arrow--right rounded-pill" data-glide-dir=">">>></button>
     </div>
-    <div class="glide__bullets" data-glide-el="controls[nav]">
-      <button class="glide__bullet" data-glide-dir="=0"></button>
+    <div class="glide__bullets"  data-glide-el="controls[nav]">
+      <button class="glide__bullet " data-glide-dir="=0"></button>
       <button class="glide__bullet" data-glide-dir="=1"></button>
       <button class="glide__bullet" data-glide-dir="=2"></button>
     </div>
-  </div>
-<div class="container text-break py-5">
+  </div><hr>
+<div class="container text-break py-2">
   <h3 class="heading-4 text-center">Languages/Frameworks</h3>
 <div class=" img-fluid row text-center">
   <div class="col-4 col-md-2">
@@ -130,13 +133,15 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel"></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button id="close" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body d-flex flex-column justify-content-center">
         
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      <div class="modal-footer d-flex justify-content-around">
+        <button type="button" class="btn btn-outline-primary">View Code</button>
+  <button type="button" class="btn btn-outline-primary ">View Demo</button>
+        <button id="close" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         
       </div>
     </div>
@@ -146,22 +151,22 @@
 <!-- ABOUT ME SECTION //////////////////// ABOUT ME-->
 <div class="contact container-fluid text-center text-light pt-2" id="contact">
   <h2 class="display-4">About/Contact Me</h2>
-  <img class="img-thumbnail" src="https://i.pravatar.cc/300" alt="Khaydien Anderson">
+  <img class="img-fluid img-thumbnail" src="/img/kdn.JPG" style="max-width: 300px;" alt="Khaydien Anderson">
   <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat laoreet lorem, iaculis commodo purus molestie vel. Vivamus at viverra lorem. Sed volutpat nibh et risus malesuada, a posuere quam viverra. Nunc sed turpis quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent scelerisque auctor sem. Donec nec molestie ante. Etiam id malesuada lacus.</p> -->
-  <p>I am a Front-end Web Developer from East London, UK. I have been studying the field for over 2 years now and have recently taken on some freelance projects. I Look to learn more languages and skills everyday and explore other sides of the tech world in future including software and blockchain development.
+  <p class="px-4">I am a Front-end Web Developer from East London, UK. I have been studying the field for over 2 years now and have recently taken on some freelance projects. I Look to learn more languages and skills everyday and explore other sides of the tech world in future including software and blockchain development.
     After recently graduating from Team Treehouse’s Tech Degree program I have gained enough knowledge in designing with code and now looking to join a team I can learn more from. Please contact me with any questions below!</p>
   <div class="phonemail container-fluid text-light d-flex flex-column flex-sm-row">
       <div class="container d-block img-fluid align-items-center justify-content-around">
         <img src="/img/phone.svg">
-          <button type="button" class="btn btn-outline-secondary"> <h5>Call</h5></button>
+          <button type="button" class="btn btn-sm  btn-outline-secondary"> <a href="mailto:khaydienanderson@gmail.com">Call</a></button>
         </div>
         <div class="container d-block img-fluid align-items-center justify-content-around">
-            <img src="/img/mail.svg" href="google.com">
-            <button type="button" class="btn btn-outline-secondary"> <h5>Email</h5></button>
+            <img src="/img/mail.svg" href="google.com" >
+            <button type="button"  href="mailto:khaydienanderson@gmail.com" class="btn btn-sm btn-outline-secondary"> <a href="mailto:khaydienanderson@gmail.com">Email</a></button>
           </div>
           <div class="container d-block img-fluid align-items-center justify-content-around">
             <img src="/img/cv.png" style="width: 96px; height: 90px; margin-right: 20px; "href="google.com">
-            <button type="button" class="btn btn-outline-secondary"> <h5>CV</h5></button>
+            <button type="button" class="btn btn-sm btn-outline-secondary"> <a href="mailto:khaydienanderson@gmail.com">CV</a></button>
           </div>
   </div>
 </div>
@@ -178,7 +183,7 @@
         <!-- Grid container -->
         <div class="container p-4">
           <!-- Section: Social media -->
-          <h5 class="mb-4">Social Media</h5>
+          <h5 class="mb-4">Connect</h5>
             <!-- Facebook
             <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
               ><i class="fa fa-facebook-f"></i
@@ -210,9 +215,9 @@
         <!-- Grid container -->
       
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <div class="foot text-center p-3 d-flex flex-column" style="background-color: rgba(0, 0, 0, 0.2);">
           © 2021 Copyright:
-          <p class="text-white">Khaydien Anderson</p>
+          <p class="text-white">Khaydien Anderson</p> <a class="btn-sm" href="#top" style="margin-left: auto;">	&uarr;</a>
         </div>
         <!-- Copyright -->
       </footer>

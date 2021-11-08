@@ -1,3 +1,13 @@
+* {
+  font-family: "Share", cursive;
+}
+* p {
+  font-weight: lighter;
+}
+* h1, * h2, * h3, * h4, * h5, * h6 {
+  font-weight: bold;
+}
+
 nav {
   background-color: black;
 }
@@ -28,12 +38,14 @@ main .card {
 .glide {
   display: flex;
   justify-content: center;
+  padding-bottom: 20px;
 }
 .glide img {
   margin: auto;
   width: 90%;
   height: 100%;
   border: solid 2px whitesmoke;
+  border-radius: 10px;
 }
 .glide img:hover {
   opacity: 0.5;
@@ -42,6 +54,16 @@ main .card {
 .glide .glide__arrow {
   color: black;
   background-color: whitesmoke;
+}
+
+.phonemail a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.foot a {
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 @keyframes fade {
