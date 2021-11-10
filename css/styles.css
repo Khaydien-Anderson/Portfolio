@@ -42,10 +42,13 @@ main .card {
 }
 .glide img {
   margin: auto;
-  width: 90%;
+  width: 80%;
   height: 100%;
   border: solid 2px whitesmoke;
   border-radius: 10px;
+}
+.glide #form img {
+  object-fit: cover;
 }
 .glide img:hover {
   opacity: 0.5;
@@ -56,9 +59,19 @@ main .card {
   background-color: whitesmoke;
 }
 
+.language {
+  border-radius: 15px;
+  border: solid 1px whitesmoke;
+  padding: 2px;
+}
+
 .phonemail a {
   text-decoration: none;
   color: whitesmoke;
+}
+
+.modal a {
+  text-decoration: none;
 }
 
 .foot a {

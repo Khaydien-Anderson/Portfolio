@@ -56,11 +56,15 @@ justify-content: center;
 padding-bottom: 20px;
 img {
  margin: auto;
-  width: 90%;
+  width: 80%;
   height: 100%;
   border: solid 2px whitesmoke;
   border-radius: 10px;
   
+}
+
+#form img {
+  object-fit: cover;
 }
 img:hover {
   opacity: 0.5;
@@ -73,13 +77,21 @@ img:hover {
 }
 
 }
-
+.language {
+  border-radius: 15px;
+  border: solid 1px whitesmoke;
+  padding: 2px;
+}
 
 .phonemail {
   a {
     text-decoration: none;
     color: whitesmoke;
   }
+}
+
+.modal a {
+  text-decoration: none;
 }
 
 .foot {

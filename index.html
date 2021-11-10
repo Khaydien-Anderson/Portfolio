@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
     <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Share:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
@@ -25,6 +25,7 @@
         <!-- <h1 class="display-3 mt-2 text-light d-none d-md-flex">Khaydien Anderson</h1> -->
       
       </header>
+      
       <nav class="navbar navbar-expand-md navbar-dark d-md-none fixed-top">
           <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,7 +48,7 @@
                     </li>
                     <li class="nav-item">
                     
-                      <a class="nav-link " aria-current="page" href="#contact">View CV</a>
+                      <a class="nav-link " aria-current="page" href="https://drive.google.com/file/d/12dHSSzDYv1UcsPUd-0HepAG6SUPPRpc1/view?usp=sharing">View CV</a>
                     </li>
                 </ul>
                 
@@ -57,13 +58,13 @@
 <main class="d-flex flex-column justify-content-center align-items-center">
   
     <div class="intro d-flex justify-content-center align-items-center">
-      <button type="button" class="btn btn-outline-secondary cv d-none d-md-flex">View CV</button>
+      <a href="https://drive.google.com/file/d/12dHSSzDYv1UcsPUd-0HepAG6SUPPRpc1/view?usp=sharing" target="_blank" class="btn btn-outline-secondary cv d-none d-md-flex">View CV</a>
       <div class="card d-flex text-center  text-light" style="width: 25rem; height: 15rem;">
         <div class="card-body">
-          <h1 class="display-6 card-title typing"></h1>
+          <h1 class="display-6 card-title typing">Khaydien Anderson</h1>
         
           <h6 class="card-subtitle mb-2 text-muted">Front End Developer</h6>
-          <p class="card-text">Based in London, UK. Specialises in front end languages HTML, CSS, Javascript. </p>
+          <p class="card-text">Based in London, UK. Team Treehouse TechDegree graduate specialising in front end development with HTML, CSS & Javascript. </p>
           <a class="btn btn-secondary btn d-none d-md-inline" href="#projects">Projects</a>
           
           <a class="btn btn-secondary btn d-none d-md-inline" href="#contact">Contact</a>
@@ -76,20 +77,20 @@
 <p class="text-light text-center px-3">Below are a handful of projects I have been working on over the past year. These range from projects given to me for learning experience and first pieces of freelance work.<br><br> Click on a project to view more informaton on the creation of it.</p>
 <div class="container-fluid text-light px-6" >
   <div class="glide">
-    <div class="glide__track" data-glide-el="track">
+    <div class="glide__track img-fluid" data-glide-el="track">
       <ul class="glide__slides">
-        <li class="glide__slide info d-flex flex-column text-center justify-content-center" ><img data-bs-toggle="modal" data-bs-target="#exampleModal" src="/img/gallery.png"  ><p>Photo Gallery with search filter</p></li>
-        <li class="glide__slide info d-flex flex-column text-center justify-content-center" ><img data-bs-toggle="modal" data-bs-target="#exampleModal" src="/img/dashboard.png"><p>Intranet Dashboard with Javascript interactivity</p></li>
-        <li class="glide__slide info d-flex flex-column text-center justify-content-center"><img data-bs-toggle="modal" data-bs-target="#exampleModal" src="/img/api.png"><p>API Employee directory</p></li>
-        <li class="glide__slide info d-flex flex-column text-center justify-content-center" ><img data-bs-toggle="modal" data-bs-target="#exampleModal" src="/img/Mobile First.png" ><p>Basic Mobile First Web design portfolio</p></li>
-        <li class="glide__slide info d-flex flex-column text-center justify-content-center"><img data-bs-toggle="modal" data-bs-target="#exampleModal" src="/img/Mike.png"><p>Video Producers portfolio</p></li>
-        <li class="glide__slide info d-flex flex-column text-center justify-content-center"><img data-bs-toggle="modal" data-bs-target="#exampleModal" src="/img/game.png"><p>JS Word Guessing Game</p></li>
+        <li class="glide__slide info d-flex flex-column text-center justify-content-center" ><img data-bs-toggle="modal" data-bs-target="#exampleModal" src="/img/gallery.png" alt="Photo Gallery" ><p>Photo Gallery With Search Filter</p></li>
+        <li class="glide__slide info d-flex flex-column text-center justify-content-center" ><img data-bs-toggle="modal" data-bs-target="#exampleModal" src="/img/dashboard.png" alt="Intranet Web Dashboard"><p>Intranet Dashboard With Javascript Interactivity</p></li>
+        <li class="glide__slide info d-flex flex-column text-center justify-content-center"><img data-bs-toggle="modal" data-bs-target="#exampleModal" src="/img/api.png" alt="Startup API Employee directory"><p>API Employee Directory</p></li>
+        <li class="glide__slide info d-flex flex-column text-center justify-content-center" ><img data-bs-toggle="modal" id="form" data-bs-target="#exampleModal" src="/img/form3.png" alt="HTML online registration form"><p>Online Registration Form</p></li>
+        <li class="glide__slide info d-flex flex-column text-center justify-content-center"><img data-bs-toggle="modal" data-bs-target="#exampleModal" src="/img/Mike.png" alt="Video producers portfolio"><p>Video Producers Portfolio</p></li>
+        <li class="glide__slide info d-flex flex-column text-center justify-content-center"><img data-bs-toggle="modal" data-bs-target="#exampleModal" src="/img/game.png" alt="Javascript word guessing game."><p>Javascript Word Guessing Game</p></li>
       </ul>
       
     </div>
     <div class="glide__arrows" data-glide-el="controls">
-      <button class="glide__arrow glide__arrow--left rounded-pill" data-glide-dir="<"><<</button>
-      <button class="glide__arrow glide__arrow--right rounded-pill" data-glide-dir=">">>></button>
+      <button class="glide__arrow glide__arrow--left rounded-pill" data-glide-dir="&lt;">&lt;</button>
+      <button class="glide__arrow glide__arrow--right rounded-pill" data-glide-dir="&gt;">&gt;</button>
     </div>
     <div class="glide__bullets"  data-glide-el="controls[nav]">
       <button class="glide__bullet " data-glide-dir="=0"></button>
@@ -101,27 +102,27 @@
   <h3 class="heading-4 text-center">Languages/Frameworks</h3>
 <div class=" img-fluid row text-center">
   <div class="col-4 col-md-2">
-    <img src="/img/html.svg">
+    <img class="language" src="/img/html.svg" alt="HTML 5">
     <p>HTML</p>
   </div>
   <div class="col-4 col-md-2">
-    <img src="/img/css.svg">
+    <img class="language" src="/img/css.svg" alt="CSS 3">
     <p>CSS</p>
   </div>
   <div class="col-4 col-md-2">
-    <img src="/img/javascript96.svg">
+    <img class="language" src="/img/javascript96.svg" alt="Javascript">
     <p>Javascript</p>
   </div>
   <div class="col-4 col-md-2">
-    <img src="/img/sass.svg">
+    <img class="language" src="/img/sass.svg"  alt="SASS">
     <p>SASS</p>
   </div>
   <div class="col-4 col-md-2">
-    <img src="/img/bootstrap.svg">
+    <img class="language" src="/img/bootstrap.svg"  alt="Bootstrap">
     <p>Bootstrap</p>
   </div>
   <div class="col-4 col-md-2" >
-    <img src="/img/react.svg">
+    <img class="language" src="/img/react.svg"  alt="React">
     <p>React</p>
   </div>
 </div>
@@ -132,16 +133,16 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"></h5>
-        <button id="close" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <h5 class="modal-title" id="exampleModalLabel">Project Header</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body d-flex flex-column justify-content-center">
         
       </div>
       <div class="modal-footer d-flex justify-content-around">
-        <button type="button" class="btn btn-outline-primary">View Code</button>
-  <button type="button" class="btn btn-outline-primary ">View Demo</button>
-        <button id="close" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a href="" target="_blank" id="view" class="btn btn-outline-primary">View Code</a>
+  <a href="" target="_blank" id="demo" class="btn btn-outline-primary">View Demo</a>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         
       </div>
     </div>
@@ -149,30 +150,31 @@
 </div>
 
 <!-- ABOUT ME SECTION //////////////////// ABOUT ME-->
-<div class="contact container-fluid text-center text-light pt-2" id="contact">
-  <h2 class="display-4">About/Contact Me</h2>
+<h2 class="display-4 text-center">About/Contact Me</h2>
+<div class="contact container-fluid text-center text-light pt-2 d-lg-flex" id="contact">
+  
   <img class="img-fluid img-thumbnail" src="/img/kdn.JPG" style="max-width: 300px;" alt="Khaydien Anderson">
   <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat laoreet lorem, iaculis commodo purus molestie vel. Vivamus at viverra lorem. Sed volutpat nibh et risus malesuada, a posuere quam viverra. Nunc sed turpis quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent scelerisque auctor sem. Donec nec molestie ante. Etiam id malesuada lacus.</p> -->
-  <p class="px-4">I am a Front-end Web Developer from East London, UK. I have been studying the field for over 2 years now and have recently taken on some freelance projects. I Look to learn more languages and skills everyday and explore other sides of the tech world in future including software and blockchain development.
-    After recently graduating from Team Treehouse’s Tech Degree program I have gained enough knowledge in designing with code and now looking to join a team I can learn more from. Please contact me with any questions below!</p>
-  <div class="phonemail container-fluid text-light d-flex flex-column flex-sm-row">
+  <p class="px-4">I am a Front-end Web Developer from East London, UK. I have been studying the field for over 2 years now and have recently taken on some freelance projects, as well as graduated from Team Treehouse's Tech Degree program. I Look to learn more coding languages and skills and explore other sides of the tech world in future including software and blockchain development.
+   <br><br> After recently graduating from the TechDegree I feel I have gained enough knowledge in designing with code to now look to join a team I can learn more from. Please contact me with any questions below!</p>
+  <div class="phonemail container-fluid text-light d-flex flex-column flex-sm-row flex-lg-column">
       <div class="container d-block img-fluid align-items-center justify-content-around">
-        <img src="/img/phone.svg">
-          <button type="button" class="btn btn-sm  btn-outline-secondary"> <a href="mailto:khaydienanderson@gmail.com">Call</a></button>
+        <img src="/img/phone.svg" alt="phone">
+          <a href="tel:07943511096" class="btn btn-sm btn-outline-secondary">Call</a>
         </div>
         <div class="container d-block img-fluid align-items-center justify-content-around">
-            <img src="/img/mail.svg" href="google.com" >
-            <button type="button"  href="mailto:khaydienanderson@gmail.com" class="btn btn-sm btn-outline-secondary"> <a href="mailto:khaydienanderson@gmail.com">Email</a></button>
+            <img src="/img/mail.svg" alt="Email" >
+            <a href="mailto:khaydienanderson@gmail.com" class="btn btn-sm btn-outline-secondary" target="_blank">Email</a>
           </div>
           <div class="container d-block img-fluid align-items-center justify-content-around">
-            <img src="/img/cv.png" style="width: 96px; height: 90px; margin-right: 20px; "href="google.com">
-            <button type="button" class="btn btn-sm btn-outline-secondary"> <a href="mailto:khaydienanderson@gmail.com">CV</a></button>
+            <img src="/img/cv.png" style="width: 96px; height: 90px; margin-right: 20px; " alt="CV">
+          <a href="https://drive.google.com/file/d/12dHSSzDYv1UcsPUd-0HepAG6SUPPRpc1/view?usp=sharing" target="_blank" class="btn btn-sm btn-outline-secondary">CV</a>
           </div>
   </div>
 </div>
 <br>
 <!-- CONTACT SECTION //////////////////// CONTACT-->
-
+</div>
 
 </main>
 
@@ -201,7 +203,7 @@
             ></a> -->
       
             <!-- Linkedin -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/khaydien-anderson-063b4b19b/" role="button"
               ><i class="fa fa-linkedin"></i
             ></a>
       
@@ -209,7 +211,7 @@
             <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/crumpcode" target="_blank" role="button"
               ><i class="fa fa-github"></i
             ></a>
-          </section>
+       
           <!-- Section: Social media -->
         </div>
         <!-- Grid container -->
