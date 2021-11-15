@@ -37,7 +37,7 @@ const projectTexts  = [`<li>Javascript lightbox functionality used to bring pict
 <li>CSS transitions on phrase display</li>
 <li>Interactive on screen keyboard </li>`]
 
-const demoLinks = ['https://crumpcode.github.io/Techdegree-Project-5/',
+const demoLinks = ['https://khaydien-anderson.github.io/Techdegree-Project-5/',
                 'https://crumpcode.github.io/Techdegree-Project-7.0/',
                 'https://crumpcode.github.io/Treehouse-Techdegree-8/',
                 'https://crumpcode.github.io/Techdegree-Project-3/',
