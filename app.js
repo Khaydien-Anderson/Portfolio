@@ -38,19 +38,19 @@ const projectTexts  = [`<li>Javascript lightbox functionality used to bring pict
 <li>Interactive on screen keyboard </li>`]
 
 const demoLinks = ['https://khaydien-anderson.github.io/Techdegree-Project-5/',
-                'https://crumpcode.github.io/Techdegree-Project-7.0/',
-                'https://crumpcode.github.io/Treehouse-Techdegree-8/',
-                'https://crumpcode.github.io/Techdegree-Project-3/',
-                'https://crumpcode.github.io/MikeXV/',
-                'https://crumpcode.github.io/Techdegree-Project-6/'
+                'https://khaydien-anderson.github.io/Techdegree-Project-7.0/',
+                'https://khaydien-anderson.github.io/Treehouse-Techdegree-8/',
+                'https://khaydien-anderson.github.io/Techdegree-Project-3/',
+                'https://khaydien-anderson.github.io/MikeXV/',
+                'https://khaydien-anderson.github.io/Techdegree-Project-6/'
               ]
 
-const viewLinks = ['https://github.com/crumpcode/Techdegree-Project-5.git',
-                    'https://github.com/crumpcode/Techdegree-Project-7.git',
-                    'https://github.com/crumpcode/Treehouse-Techdegree-8.git',
-                  'https://github.com/crumpcode/Techdegree-Project-3.git',
-                'https://github.com/crumpcode/MikeXV.git',
-              'https://github.com/crumpcode/Techdegree-Project-6.git']
+const viewLinks = ['https://github.com/khaydien-anderson/Techdegree-Project-5.git',
+                    'https://github.com/khaydien-anderson/Techdegree-Project-7.git',
+                    'https://github.com/khaydien-anderson/Treehouse-Techdegree-8.git',
+                  'https://github.com/khaydien-anderson/Techdegree-Project-3.git',
+                'https://github.com/khaydien-anderson/MikeXV.git',
+              'https://github.com/khaydien-anderson/Techdegree-Project-6.git']
 
 //// FOR EACH PROJECT THE MODAL WILL UPDATE WITH PROJECTTEXTS ARRAY CONTENT
 const demo = document.getElementById('demo')
