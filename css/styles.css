@@ -1,5 +1,6 @@
 * {
   font-family: "Share", cursive;
+  overflow-x: hidden;
 }
 * p {
   font-weight: lighter;
