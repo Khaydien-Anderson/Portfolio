@@ -105,6 +105,16 @@ main .card {
   color: whitesmoke;
 }
 
+@media (min-width: 320px) {
+  .thumb {
+    width: 50%;
+  }
+}
+@media (min-width: 1024px) {
+  .thumb {
+    width: 80%;
+  }
+}
 .modal a {
   text-decoration: none;
 }
