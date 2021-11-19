@@ -9,6 +9,10 @@
   font-weight: bold;
 }
 
+html {
+  padding: env(safe-area-inset);
+}
+
 nav {
   background-color: black;
 }
