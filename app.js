@@ -5,37 +5,37 @@ const projectsAr = Array.from(projects);
 
 const modalTitle = document.querySelector('.modal-title')
 const modalBody = document.querySelector('.modal-body')
-const projectTexts  = [`<li>Javascript lightbox functionality used to bring pictures to the front</li>
-<li>Search filter enabled to filter pictures by caption</li>
-<li>Responsive CSS Grid</li>
-<li>Left + Right navigation when picture selected</li>
+const projectTexts  = [`<li>- Javascript lightbox functionality used to bring pictures to the front</li>
+<li>- Search filter enabled to filter pictures by caption</li>
+<li>- Responsive CSS Grid</li>
+<li>- Left + Right navigation when picture selected</li>
 `,
 
-`<li>Javascript plugins used (chart.js) to create responsive chart that adjusts to time. (hourly, daily, weekly, monthly)</li>
-<li>Search filter enabled to filter users by name</li>
-<li>Mobile first responsive CSS Grid</li>
-<li>Local storage created to save users settings and send messages</li>
-<li>Javascript interactivity used to create open and close alerts</li>`,
+`<li>- Javascript plugins used (chart.js) to create responsive chart that adjusts to time. (hourly, daily, weekly, monthly)</li>
+<li>- Search filter enabled to filter users by name</li>
+<li>- Mobile first responsive CSS Grid</li>
+<li>- Local storage created to save users settings and send messages</li>
+<li>- Javascript interactivity used to create open and close alerts</li>`,
 
-`<li>AJAX used to fetch random users from API generator and display users</li>
-<li>Search filter enabled to filter users by name</li>
-<li>Modal created to load more information on user</li>
-<li>Functionality to switch back and forth between users</li>`,
+`<li>- AJAX used to fetch random users from API generator and display users</li>
+<li>- Search filter enabled to filter users by name</li>
+<li>- Modal created to load more information on user</li>
+<li>- Functionality to switch back and forth between users</li>`,
 
-`<li>Form created using HTML forms</li>
-<li>Flexbox for layout</li>
-<li>Mobile first approach</li>
-<li>All required input attributes with labels</li>`,
+`<li>- Form created using HTML forms</li>
+<li>- Flexbox for layout</li>
+<li>- Mobile first approach</li>
+<li>- All required input attributes with labels</li>`,
 
-`<li>Javascript interactivity to open close hamburger menu</li>
-<li>Contact form added</li>
-<li>Mobile first approach for Mobile, Tablet & Desktop</li>
-<li>Videos manually added to index and embedded Youtube videos.</li>`,
+`<li>- Javascript interactivity to open close hamburger menu</li>
+<li>- Contact form added</li>
+<li>- Mobile first approach for Mobile, Tablet & Desktop</li>
+<li>- Videos manually added to index and embedded Youtube videos.</li>`,
 
-`<li>Javascript arrays used to store correct phrases.</li>
-<li>Javascript interactivity when clicking right and wrong answer</li>
-<li>CSS transitions on phrase display</li>
-<li>Interactive on screen keyboard </li>`]
+`<li>- Javascript arrays used to store correct phrases.</li>
+<li>- Javascript interactivity when clicking right and wrong answer</li>
+<li>- CSS transitions on phrase display</li>
+<li>- Interactive on screen keyboard </li>`]
 
 const demoLinks = ['https://khaydien-anderson.github.io/Techdegree-Project-5/',
                 'https://khaydien-anderson.github.io/Techdegree-Project-7.0/',

@@ -96,8 +96,10 @@ main .card {
 
 .language {
   border-radius: 15px;
-  border: solid 1px whitesmoke;
   padding: 2px;
+}
+.language img {
+  width: 50%;
 }
 
 .phonemail a {
@@ -115,10 +117,6 @@ main .card {
     width: 80%;
   }
 }
-.modal a {
-  text-decoration: none;
-}
-
 .foot a {
   text-decoration: none;
   color: whitesmoke;

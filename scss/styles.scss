@@ -8,9 +8,12 @@
  
 // }
 
+
+
 * {
   font-family: 'Share', cursive;
   overflow-x: hidden;
+  
 p{
   font-weight: lighter;
 }
@@ -130,8 +133,11 @@ img:hover {
 }
 .language {
   border-radius: 15px;
-  border: solid 1px whitesmoke;
+  
   padding: 2px;
+  img {
+    width: 50%;
+  }
 }
 
 .phonemail {
@@ -152,9 +158,6 @@ img:hover {
   }
 }
 
-.modal a {
-  text-decoration: none;
-}
 
 .foot {
 a {
@@ -184,3 +187,4 @@ background-color: rgba(0, 0, 0, 0.7);
 
 }
 }
+
