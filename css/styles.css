@@ -2,9 +2,6 @@
   font-family: "Share", cursive;
   overflow-x: hidden;
 }
-* p {
-  font-weight: lighter;
-}
 * h1, * h2, * h3, * h4, * h5, * h6 {
   font-weight: bold;
 }
@@ -19,12 +16,12 @@ nav {
 
 .intro {
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/img/laptop.png");
+  background: linear-gradient(-360deg, black, #201f1f, #2e2d2d, #666666);
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  animation: blur 1s ease-in-out;
+  animation: blur 3s ease-in-out;
 }
 
 @keyframes blur {
@@ -98,10 +95,24 @@ main .card {
   border-radius: 15px;
   padding: 2px;
 }
-.language img {
-  width: 50%;
+
+.projects p,
+.skillset p,
+.contact p {
+  font-size: 18px;
 }
 
+.skillset {
+  max-width: 1200px;
+}
+.skillset svg {
+  width: 80px;
+  height: 80px;
+}
+
+.phonemail {
+  max-width: 800px;
+}
 .phonemail a {
   text-decoration: none;
   color: whitesmoke;
@@ -120,6 +131,10 @@ main .card {
 .foot a {
   text-decoration: none;
   color: whitesmoke;
+  font-size: 20px;
+}
+.foot p {
+  font-size: 20px;
 }
 
 @keyframes fade {
